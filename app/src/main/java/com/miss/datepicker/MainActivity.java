@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayShowEnabled(true);
         datePicker = findViewById(R.id.kalender);
         Output = findViewById(R.id.output);
         SetChange = findViewById(R.id.set_kalender);
